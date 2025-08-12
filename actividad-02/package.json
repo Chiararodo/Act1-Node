@@ -1,0 +1,13 @@
+{
+    "name": "act2-node",
+    "version": "1.0.0",
+    "description": "Actividad 02 - Clases y módulos",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Chiara Rodó",
+    "license": "MIT"
+  }
+  
