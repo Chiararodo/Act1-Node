@@ -101,10 +101,10 @@ Ejemplo JSON (POST → crear obra):
 ---
 
 ### 👤 Usuarios (/api/usuarios)
-GET /api/usuarios → Lista todos los usuarios
-POST /api/usuarios → Crea un nuevo usuario
-PUT /api/usuarios/:id → Actualiza un usuario existente
-DELETE /api/usuarios/:id → Elimina un usuario
+- **GET** `/api/usuarios` → Lista todos los usuarios  
+- **POST** `/api/usuarios` → Crea un nuevo usuario  
+- **PUT** `/api/usuarios/:id` → Actualiza un usuario existente  
+- **DELETE** `/api/usuarios/:id` → Elimina un usuario  
 
 Ejemplo JSON (POST → crear usuario):
 ```json
