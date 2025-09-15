@@ -100,6 +100,25 @@ Ejemplo JSON (POST → crear obra):
 
 ---
 
+### 👤 Usuarios (/api/usuarios)
+GET /api/usuarios → Lista todos los usuarios
+POST /api/usuarios → Crea un nuevo usuario
+PUT /api/usuarios/:id → Actualiza un usuario existente
+DELETE /api/usuarios/:id → Elimina un usuario
+
+Ejemplo JSON (POST → crear usuario):
+```json
+{
+  "nombre": "Chiara",
+  "email": "chiara@example.com",
+  "password": "123456",
+  "foto": "perfil1.png"
+}
+
+```
+
+---
+
 ## 🛠️ Herramientas de prueba
 Se recomienda usar **Postman** para probar los endpoints con los métodos GET, POST, PUT y DELETE.
 

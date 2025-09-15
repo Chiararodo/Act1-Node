@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>API Teatro BA</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>API Teatro BA</h1>
+    <p>API REST de obras de teatro en Buenos Aires.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Endpoints</h2>
+      <ul>
+        <li><a href="/api/teatros" target="_blank">Teatros</a></li>
+        <li><a href="/api/obras" target="_blank">Obras</a></li>
+        <li><a href="/api/usuarios" target="_blank">Usuarios</a></li>
+      </ul>
+      <p>Probá <code>GET</code>, <code>POST</code>, <code>PUT</code>, <code>DELETE</code> con Postman.</p>
+    </section>
+
+    <section>
+      <h3>Filtros disponibles</h3>
+      <ul>
+        <li>Obras: <code>?q=</code> (título), <code>?genero=</code>, <code>?precioMax=</code>, <code>?teatroId=</code></li>
+        <li>Teatros: <code>?q=</code> (nombre/barrio)</li>
+        <li>Usuarios: <code>?q=</code> (nombre/email), <code>?rol=usuario|admin</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Alumnas: Chiara Rodó y Morena Castro — Materia: Aplicaciones Híbridas — Docente: Jonathan E. Cruz — Comisión: DWM4AP</p>
+  </footer>
+</body>
+</html>
